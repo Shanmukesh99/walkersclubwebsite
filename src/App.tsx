@@ -47,12 +47,6 @@ const App = () => (
   <Route path="/past-international-presidents" element={<PastInternationalPresidents />} />
   <Route path="/bye-laws" element={<Byelaws />} />
   <Route path="/our-members" element={<OurMembers />} />
-
-            
-
-
-
-
           </Routes>
         </Layout>
       </BrowserRouter>
@@ -61,3 +55,7 @@ const App = () => (
 );
 
 export default App;
+
+// git add .
+// git commit -m "updated content"
+// git push

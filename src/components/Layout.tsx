@@ -207,7 +207,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             <DialogTitle>Certificate of Registration</DialogTitle>
           </DialogHeader>
           <div className="flex justify-center">
-            <img src="/src/assets/Certificate.jpg" className="w-full max-w-lg rounded-lg" />
+            <img src="/gallery/Certificate.jpg" className="w-full max-w-lg rounded-lg" />
           </div>
         </DialogContent>
       </Dialog>
