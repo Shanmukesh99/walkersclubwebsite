@@ -26,7 +26,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
   const navLinks = [
     { path: "/", label: "Home" },
-    { path: "/walkers-visakhapatnam", label: "Walkers visakhapatnam" },
+    { path: "/walkers-visakhapatnam", label: "Walkers Club Visakhapatnam" },
     { path: "/become-member", label: "To Become a Member" },
     { path: "/contact-us", label: "Contact Us" },
     { path: "/father-of-walkers", label: "Father of Walkers Movement" },
@@ -91,7 +91,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               {/* Visakhapatnam Dropdown */}
               <DropdownMenu open={isClubDropdownOpen} onOpenChange={setIsClubDropdownOpen}>
   <DropdownMenuTrigger className="px-4 py-2 rounded-lg transition-all duration-200 text-primary-foreground hover:bg-primary-foreground/10 flex items-center space-x-1">
-    <span>Walkers Visakhapatnam</span>
+  <span>Walkers Club Visakhapatnam</span>
     <ChevronDown size={16} color="white" />
   </DropdownMenuTrigger>
 
