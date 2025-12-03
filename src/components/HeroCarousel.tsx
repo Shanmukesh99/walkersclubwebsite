@@ -136,13 +136,6 @@ const HeroCarousel = () => {
               <p className="text-xl md:text-2xl opacity-90 mb-6 drop-shadow-lg">
                 {slides[current].subtitle}
               </p>
-
-              <blockquote className="italic text-lg md:text-xl text-gray-200 flex items-start gap-3">
-                <Quote className="opacity-70 mt-1" />
-                <span>
-                  HEALTH IS WEALTH - WALK YOUR WAY TO HEALTH
-                </span>
-              </blockquote>
             </motion.div>
           </div>
         </motion.div>
