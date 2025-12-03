@@ -71,13 +71,13 @@ const HeroCarousel = () => {
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
-        className="
-          absolute top-6 right-6 z-30
-          bg-white/20 backdrop-blur-xl border border-white/30
-          shadow-2xl rounded-2xl p-4 w-80
-          text-white
-          animate-pulse
-        "
+       className="
+  absolute top-6 right-6 z-30
+  bg-black/60 backdrop-blur-xl
+  text-white
+  shadow-xl rounded-2xl p-4 w-80
+  border border-white/20
+"
       >
         <p className="text-sm font-semibold uppercase tracking-wide text-yellow-300 mb-2">
           Next Meeting
