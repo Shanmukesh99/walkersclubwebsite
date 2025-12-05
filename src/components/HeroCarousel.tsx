@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
-import heroWalking from "@/assets/hero-walking.jpg";
-import heroCommunity from "@/assets/hero-community.jpg";
-import heroNature from "@/assets/hero-nature.jpg";
+import heroWalking from "@/gallery/0B2A0561.jpeg";
+import heroCommunity from "@/gallery/0B2A6650.jpeg";
+import heroNature from "@/gallery/0B2a6772.jpeg";
 
 const slides = [
   {
