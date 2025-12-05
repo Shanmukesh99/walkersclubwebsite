@@ -1,0 +1,59 @@
+/* ========= GLOBAL RESPONSIVE FIXES ========= */
+
+/* Small Devices - Mobiles (≤640px) */
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 28px !important;
+  }
+  .hero-subtitle {
+    font-size: 16px !important;
+  }
+  .meeting-ticker {
+    width: 90% !important;
+    right: 5% !important;
+    top: 80px !important;
+  }
+  .navbar-title {
+    font-size: 16px !important;
+  }
+  .navbar-quote {
+    font-size: 8px !important;
+  }
+  .gallery-grid {
+    column-count: 2 !important;
+  }
+}
+
+/* Large Phones/Small Tablets (≥640px & <768px) */
+@media (min-width: 640px) and (max-width: 767px) {
+  .hero-title { font-size: 32px !important; }
+  .hero-subtitle { font-size: 18px !important; }
+  .gallery-grid { column-count: 2 !important; }
+}
+
+/* Tablets (≥768px & <1024px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-title { font-size: 40px !important; }
+  .hero-subtitle { font-size: 20px !important; }
+  .gallery-grid { column-count: 3 !important; }
+}
+
+/* Laptops (≥1024px & <1280px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .hero-title { font-size: 48px !important; }
+  .hero-subtitle { font-size: 22px !important; }
+  .gallery-grid { column-count: 4 !important; }
+}
+
+/* Desktops (≥1280px) */
+@media (min-width: 1280px) {
+  .hero-title { font-size: 54px !important; }
+  .hero-subtitle { font-size: 26px !important; }
+  .gallery-grid { column-count: 4 !important; }
+}
+
+/* ========= Utility for consistent paddings ========= */
+.section-padding {
+  padding-left: clamp(1rem, 4vw, 4rem);
+  padding-right: clamp(1rem, 4vw, 4rem);
+}

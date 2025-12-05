@@ -76,7 +76,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
               <div className="text-primary-foreground">
                 <h1 className="font-bold text-xl">Walkers Club Visakhapatnam</h1>
-<p className="text-[20px] font-semibold tracking-wide text-yellow-300">
+<p className="text-[15px] font-semibold tracking-wide text-yellow-300">
   HEALTH IS WEALTH – WALK YOUR WAY TO HEALTH
 </p>
 
