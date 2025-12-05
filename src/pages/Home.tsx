@@ -63,16 +63,7 @@ const Home = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="max-w-4xl mx-auto text-center mb-20"
           >
-       <h1 className="
-  text-4xl md:text-5xl font-bold mb-8 leading-tight 
-  bg-gradient-to-r from-green-600 to-blue-600 
-  bg-clip-text text-transparent
-  drop-shadow-md
-">
-  HEALTH IS WEALTH – WALK YOUR WAY TO HEALTH
-</h1>
-  
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8 leading-tight">
               Welcome to Walkers Club Visakhapatnam
             </h2>
             <p className="text-xl text-black leading-relaxed max-w-3xl mx-auto">

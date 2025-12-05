@@ -75,9 +75,13 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               </div>
 
               <div className="text-primary-foreground">
-                <h1 className="font-bold text-xl">Walkers Club</h1>
-                <p className="text-xs opacity-90">Visakhapatnam</p>
-              </div>
+                <h1 className="font-bold text-xl">Walkers Club Visakhapatnam</h1>
+<p className="text-[20px] font-semibold tracking-wide text-yellow-300">
+  HEALTH IS WEALTH – WALK YOUR WAY TO HEALTH
+</p>
+
+
+             </div>
             </Link>
 
             {/* Desktop Menu */}
